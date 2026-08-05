@@ -1,15 +1,11 @@
-const CACHE_NAME = "curatenie-sr-v2";
+const CACHE_NAME = "curatenie-sr-v1";
 const ASSETS = [
   "./",
   "./index.html",
   "./manifest.json",
   "./curatenie-bg.webp",
-  "./favicon.ico",
   "./icons/icon-192.png",
-  "./icons/icon-512.png",
-  "./icons/icon-192-maskable.png",
-  "./icons/icon-512-maskable.png",
-  "./icons/apple-touch-icon.png"
+  "./icons/icon-512.png"
 ];
 
 self.addEventListener("install", (event) => {
